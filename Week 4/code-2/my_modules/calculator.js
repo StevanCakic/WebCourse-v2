@@ -1,5 +1,12 @@
+function checkType(a) {
+    return typeof a === "number";
+}
+
 function add(a, b) {
-    return a + b;
+    if(checkType(a) && checkType(b)){
+        return a + b;
+    }
+    return null;
 }
 
 function sub(a, b) {
@@ -14,7 +21,6 @@ function div(a, b) {
     return a / b;
 }
 
-/* Kako ovo da se unaprijedi sa ES6? */
 module.exports = {
     add,
     sub,

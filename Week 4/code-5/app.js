@@ -1,3 +1,4 @@
+/*
 const obj = {
     name: "Ime"
 };
@@ -12,6 +13,7 @@ const jsonObj = JSON.parse(personString);
 console.log(typeof jsonObj);
 console.log(jsonObj);
 
+*/
 const fs = require("fs");
 
 const originalNote = {
